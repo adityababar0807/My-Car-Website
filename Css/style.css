@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     /* border: 2px solid red;   */
+}
+
+.nav-link {
+    margin-left: 60px;
+}
+.navbar{
+    height: 90px;
+} 
+
+/* home */
+.div1 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/welcome-hero/welcome-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.text1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.text2 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-align: center;
+}
+
+/* service */
+
+/* CSS hover effect */
+.card:hover {
+    background-color: #2f0ae9;
+    color: #f0f0f0;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* featured cars */
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card1 {
+    border: 2px solid black;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Client */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: none;
+}
+
+/* footer */
+.a {
+    list-style-type: none;
+    left: 50%;
+}
+
+.text a {
+    color: white;
+    text-decoration: none;
+    left: 80%;
+}
